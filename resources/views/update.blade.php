@@ -15,19 +15,19 @@
     @endforeach
     @endif
     <div class="form-group">
-      <label for="exampleInputEmail1" style="margin-right: 7%;">Judul Buku</label>
+      <label for="exampleInputEmail1" style="margin-right: 7%;">Judul Buku </label>
       <input style="margin-bottom: 1%;" value="<?php echo $buku->judul; ?>" type="text" class="form-control" name="judul" placeholder="">
     </div>
     <div class="form-group">
-      <label for="exampleInputEmail1" style="margin-right: 8.5%;">Penerbit</label>
+      <label for="exampleInputEmail1" style="margin-right: 8.5%;">Penerbit </label>
       <input style="margin-bottom: 1%;" value="<?php echo $buku->penerbit; ?>" type="text" class="form-control" name="penerbit" placeholder="">
     </div>
     <div class="form-group">
-      <label for="exampleInputEmail1" style="margin-right: 6.5%;">Tahun Terbit</label>
+      <label for="exampleInputEmail1" style="margin-right: 6.5%;">Tahun Terbit </label>
       <input style="margin-bottom: 1%;" value="<?php echo $buku->tahun_terbit; ?>" type="text" class="form-control" name="tahun_terbit" placeholder="">
     </div>
     <div class="form-group">
-      <label for="exampleInputEmail1" style="margin-right: 7.5%;">Pengarang</label>
+      <label for="exampleInputEmail1" style="margin-right: 7.5%;">Pengarang </label>
       <input style="margin-bottom: 1%;" value="<?php echo $buku->pengarang; ?>" type="text" class="form-control" name="pengarang" placeholder="">
     </div>
 
